@@ -40,6 +40,10 @@
   .user-gallery-image {
     width: 90%;
     padding: 1rem;
-    @include 
+    @include laptop {
+      height: 30rem;
+      width: auto;
+    }
+    }
   }
 }

@@ -15,13 +15,13 @@
   color: white;
   text-transform: uppercase;
   @include tablet {
-      font-size: 3rem;
+    font-size: 3rem;
   }
   @include laptop {
-      font-size: 3.5rem
+    font-size: 3.5rem;
   }
   @include desktop {
-      font-size: 5rem;
+    font-size: 5rem;
   }
 }
 
@@ -33,9 +33,9 @@
   align-items: center;
   margin: 0 auto;
   @include laptop {
-      height: 60%;
-      width: 90%;
-      flex-direction: row;
+    height: 60%;
+    width: 90%;
+    flex-direction: row;
   }
   .user-gallery-image {
     width: 90%;
@@ -43,7 +43,6 @@
     @include laptop {
       height: 30rem;
       width: auto;
-    }
     }
   }
 }

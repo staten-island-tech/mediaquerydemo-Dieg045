@@ -62,9 +62,27 @@
   margin: 0 auto;
 }
 
+@media (min-width: 900px) {
+  .user-gallery-gallery {
+    height: 60%;
+    width: 90%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
 .user-gallery-gallery .user-gallery-image {
   width: 90%;
   padding: 1rem;
+}
+
+@media (min-width: 900px) {
+  .user-gallery-gallery .user-gallery-image {
+    height: 30rem;
+    width: auto;
+  }
 }
 
 html {
